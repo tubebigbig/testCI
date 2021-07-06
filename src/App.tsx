@@ -212,6 +212,7 @@ const MyComponent = ({ myprops }: { myprops: string }) => {
   );
 };
 
+
 const MemorizeMyComponent = React.memo(MyComponent);
 
 export default App;
